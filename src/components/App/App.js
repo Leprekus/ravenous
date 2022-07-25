@@ -1,5 +1,6 @@
 import './App.css';
 import BusinessList from '../BusinessList/BusinessList';
+import SearchBar from '../SearchBar/SearchBar';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         </a>
       </header>
       <BusinessList/>
+      <SearchBar />
     </div>
   );
 }
