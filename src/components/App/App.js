@@ -1,4 +1,5 @@
 import './App.css';
+import BusinessList from '../BusinessList/BusinessList';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <BusinessList/>
     </div>
   );
 }
