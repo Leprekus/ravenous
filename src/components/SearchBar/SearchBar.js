@@ -6,9 +6,9 @@ import './SearchBar.css';
 //naming conventions
 
 const sortByOptions = {
-    'bestMatch': 'best_match',
-    'highestRated': 'rating',
-    'mostReviewed': 'review_count',
+    'Best Match': 'best_match',
+    'Highest Rated': 'rating',
+    'Most Reviewed': 'review_count',
 }
 
 class SearchBar extends React.Component {
